@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<ResConfig name="SealConfig">
+	<struct name="SealConfig" cname="纹章配置表" desc="纹章配置表">
+		<entry name="SealID" rule="singular" type="int32" cname="纹章ID" desc="纹章ID" />
+		<entry name="SealName" rule="singular" type="string" cname="纹章名称" desc="纹章名称" />
+		<entry name="SealAttr" rule="repeated" type="AttrConfig" size="2" cname="属性" desc="属性" />
+	</struct>
+
+    <struct name="AttrConfig" cname="属性" desc="属性">
+		<entry name="DataType" rule="singular" type="int32" cname="ID" desc="ID" />
+		<entry name="AddType" rule="singular" type="int32" cname="类型" desc="类型" />
+		<entry name="Value" rule="singular" type="int32" cname="数值" desc="数值" />
+	</struct>
+
+</ResConfig>

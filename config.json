@@ -1,0 +1,8 @@
+{
+    "LogPath": "./log.txt",
+    "LogLevel": 5,
+    "XmlPath": "./xml/",
+    "XlsxPath": "./xls/",
+    "XlsxNamePath": "./xlsFileList.txt",
+    "FileListPath": "./"
+}
